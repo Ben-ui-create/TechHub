@@ -22,7 +22,7 @@ CartItems.init({
     },
 
     count: {
-      type: DataTypes.NUMBER,
+      type: DataTypes.STRING,
     },
   }, {
     sequelize: db,
